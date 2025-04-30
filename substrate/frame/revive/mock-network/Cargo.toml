@@ -40,7 +40,7 @@ xcm-simulator = { workspace = true, default-features = true }
 pallet-revive-fixtures = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"frame-support/std",

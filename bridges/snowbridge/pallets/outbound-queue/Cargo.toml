@@ -42,7 +42,7 @@ snowbridge-outbound-queue-primitives = { workspace = true }
 pallet-message-queue = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"bridge-hub-common/std",
 	"codec/std",

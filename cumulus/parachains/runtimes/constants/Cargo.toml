@@ -31,7 +31,7 @@ xcm = { workspace = true }
 cumulus-primitives-core = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"cumulus-primitives-core/std",
 	"frame-support/std",
@@ -43,5 +43,5 @@ std = [
 ]
 
 # Test runtimes specific features.
-rococo = ["rococo-runtime-constants"]
-westend = ["westend-runtime-constants"]
+rococo = [ "rococo-runtime-constants" ]
+westend = [ "westend-runtime-constants" ]

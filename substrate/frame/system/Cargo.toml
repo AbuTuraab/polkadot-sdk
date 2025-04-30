@@ -39,7 +39,7 @@ sp-externalities = { workspace = true, default-features = true }
 substrate-test-runtime-client = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"frame-support/std",
@@ -56,5 +56,5 @@ runtime-benchmarks = [
 	"frame-support/runtime-benchmarks",
 	"sp-runtime/runtime-benchmarks",
 ]
-try-runtime = ["frame-support/try-runtime", "sp-runtime/try-runtime"]
-experimental = ["frame-support/experimental"]
+try-runtime = [ "frame-support/try-runtime", "sp-runtime/try-runtime" ]
+experimental = [ "frame-support/experimental" ]

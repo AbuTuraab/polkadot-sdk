@@ -66,7 +66,7 @@ parachains-common = { workspace = true }
 substrate-wasm-builder = { optional = true, workspace = true, default-features = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"cumulus-pallet-aura-ext/std",

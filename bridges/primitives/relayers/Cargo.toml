@@ -31,7 +31,7 @@ sp-std = { workspace = true }
 hex-literal = { workspace = true, default-features = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"bp-header-chain/std",
 	"bp-messages/std",

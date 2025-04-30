@@ -233,7 +233,7 @@ std = [
 	"xcm-runtime-apis/std",
 	"xcm/std",
 ]
-default = ["std"]
+default = [ "std" ]
 
 runtime-benchmarks = [
 	"bridge-hub-common/runtime-benchmarks",

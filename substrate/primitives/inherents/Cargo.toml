@@ -28,7 +28,7 @@ thiserror = { optional = true, workspace = true }
 futures = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"async-trait",
 	"codec/std",

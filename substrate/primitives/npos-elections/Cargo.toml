@@ -27,7 +27,7 @@ sp-runtime = { workspace = true }
 substrate-test-utils = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 bench = []
 std = [
 	"codec/std",

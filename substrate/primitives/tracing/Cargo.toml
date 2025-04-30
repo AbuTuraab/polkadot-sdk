@@ -32,8 +32,8 @@ tracing-subscriber = { workspace = true, optional = true, features = [
 ] }
 
 [features]
-default = ["std"]
-with-tracing = ["codec/derive", "codec/full"]
+default = [ "std" ]
+with-tracing = [ "codec/derive", "codec/full" ]
 std = [
 	"codec/std",
 	"tracing-core/std",
@@ -41,4 +41,4 @@ std = [
 	"tracing/std",
 	"with-tracing",
 ]
-test-utils = ["regex", "regex/std", "std"]
+test-utils = [ "regex", "regex/std", "std" ]

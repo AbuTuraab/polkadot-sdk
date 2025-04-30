@@ -186,8 +186,8 @@ polkadot-sdk = { features = [
 ], optional = true, workspace = true, default-features = true }
 
 [features]
-default = ["cli"]
-cli = ["clap", "clap_complete", "node-inspect", "polkadot-sdk"]
+default = [ "cli" ]
+cli = [ "clap", "clap_complete", "node-inspect", "polkadot-sdk" ]
 runtime-benchmarks = [
 	"kitchensink-runtime/runtime-benchmarks",
 	"node-inspect?/runtime-benchmarks",

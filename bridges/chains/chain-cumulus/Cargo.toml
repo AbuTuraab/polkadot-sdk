@@ -30,7 +30,7 @@ sp-std = { workspace = true }
 polkadot-primitives = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"bp-messages/std",
 	"bp-polkadot-core/std",

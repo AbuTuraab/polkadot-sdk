@@ -56,7 +56,7 @@ pallet-balances = { workspace = true }
 tokio = { features = ["macros"], workspace = true, default-features = true }
 
 [features]
-runtime-metrics = ["polkadot-test-runtime/runtime-metrics"]
+runtime-metrics = [ "polkadot-test-runtime/runtime-metrics" ]
 runtime-benchmarks = [
 	"frame-system/runtime-benchmarks",
 	"pallet-balances/runtime-benchmarks",

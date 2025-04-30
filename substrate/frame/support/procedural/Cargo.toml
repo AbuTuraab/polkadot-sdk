@@ -47,7 +47,7 @@ sp-metadata-ir = { workspace = true, default-features = true }
 sp-runtime = { features = ["serde"], workspace = true, default-features = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"frame-support/std",

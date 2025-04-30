@@ -43,7 +43,7 @@ polkadot-parachain-primitives = { workspace = true }
 sp-io = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"bp-header-chain/std",
 	"bp-messages/std",

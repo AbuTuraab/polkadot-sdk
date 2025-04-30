@@ -31,7 +31,7 @@ xcm = { workspace = true }
 xcm-executor = { workspace = true, default-features = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"frame-support/std",
 	"frame-system/std",

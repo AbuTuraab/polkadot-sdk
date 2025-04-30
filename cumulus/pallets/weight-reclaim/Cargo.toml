@@ -36,7 +36,7 @@ scale-info = { features = ["derive"], workspace = true }
 cumulus-primitives-proof-size-hostfunction = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"cumulus-primitives-proof-size-hostfunction/std",

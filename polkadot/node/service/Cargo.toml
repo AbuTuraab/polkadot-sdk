@@ -145,8 +145,8 @@ sp-tracing = { workspace = true }
 tempfile = { workspace = true }
 
 [features]
-default = ["db", "full-node"]
-db = ["sc-service/rocksdb"]
+default = [ "db", "full-node" ]
+db = [ "sc-service/rocksdb" ]
 full-node = [
 	"kvdb-rocksdb",
 	"parity-db",
@@ -223,7 +223,7 @@ fast-runtime = [
 	"westend-runtime?/fast-runtime",
 ]
 
-malus = ["full-node"]
+malus = [ "full-node" ]
 runtime-metrics = [
 	"polkadot-runtime-parachains/runtime-metrics",
 	"rococo-runtime?/runtime-metrics",

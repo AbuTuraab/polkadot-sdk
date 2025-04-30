@@ -45,7 +45,7 @@ xcm-runtime-apis = { workspace = true }
 pallet-xcm-bridge-hub-router = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"cumulus-pallet-parachain-system/std",

@@ -73,7 +73,7 @@ sp-keyring = { workspace = true, default-features = true }
 sp-keystore = { workspace = true, default-features = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 no_std = []
 std = [
 	"bitvec/std",

@@ -28,7 +28,7 @@ xcm = { workspace = true }
 xcm-builder = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"frame-support/std",
 	"polkadot-primitives/std",

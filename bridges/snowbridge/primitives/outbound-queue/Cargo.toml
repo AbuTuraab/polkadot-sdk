@@ -40,7 +40,7 @@ snowbridge-core = { workspace = true }
 snowbridge-verification-primitives = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"alloy-core/std",
 	"codec/std",

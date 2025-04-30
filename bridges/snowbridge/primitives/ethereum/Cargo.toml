@@ -32,7 +32,7 @@ sp-std = { workspace = true }
 ethabi = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 expensive_tests = []
 std = [
 	"codec/std",

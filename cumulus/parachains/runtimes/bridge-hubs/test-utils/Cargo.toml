@@ -57,7 +57,7 @@ pallet-bridge-relayers = { workspace = true }
 pallet-xcm-bridge-hub = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"asset-test-utils/std",
 	"bp-header-chain/std",

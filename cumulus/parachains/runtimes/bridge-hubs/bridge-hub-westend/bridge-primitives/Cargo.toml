@@ -29,7 +29,7 @@ sp-runtime = { workspace = true }
 sp-std = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"bp-bridge-hub-cumulus/std",
 	"bp-messages/std",

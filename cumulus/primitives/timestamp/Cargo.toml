@@ -20,9 +20,5 @@ sp-timestamp = { workspace = true }
 cumulus-primitives-core = { workspace = true }
 
 [features]
-default = ["std"]
-std = [
-	"cumulus-primitives-core/std",
-	"sp-inherents/std",
-	"sp-timestamp/std",
-]
+default = [ "std" ]
+std = [ "cumulus-primitives-core/std", "sp-inherents/std", "sp-timestamp/std" ]

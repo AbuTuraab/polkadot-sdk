@@ -23,8 +23,5 @@ honggfuzz = { workspace = true }
 pallet-paged-list = { features = ["std"], workspace = true }
 
 [features]
-default = ["std"]
-std = [
-	"frame/std",
-	"pallet-paged-list/std",
-]
+default = [ "std" ]
+std = [ "frame/std", "pallet-paged-list/std" ]

@@ -37,7 +37,7 @@ sp-io = { workspace = true, default-features = true }
 sp-staking = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"frame-benchmarking/std",
 	"frame-election-provider-support/std",

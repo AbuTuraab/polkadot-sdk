@@ -29,7 +29,7 @@ sp-version-proc-macro = { workspace = true }
 thiserror = { optional = true, workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"impl-serde/std",
@@ -42,4 +42,4 @@ std = [
 ]
 
 # Serde support without relying on std features.
-serde = ["dep:serde", "impl-serde", "sp-runtime/serde"]
+serde = [ "dep:serde", "impl-serde", "sp-runtime/serde" ]

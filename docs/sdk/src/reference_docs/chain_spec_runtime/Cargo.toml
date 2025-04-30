@@ -35,21 +35,18 @@ sc-chain-spec = { workspace = true, default-features = true }
 substrate-wasm-builder = { optional = true, workspace = true, default-features = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
-	"scale-info/std",
-
 	"frame-support/std",
 	"frame/std",
-
+	"scale-info/std",
+	"serde/std",
+	"serde_json/std",
 	"sp-application-crypto/std",
 	"sp-core/std",
 	"sp-genesis-builder/std",
 	"sp-keyring/std",
 	"sp-runtime/std",
-
-	"serde/std",
-	"serde_json/std",
 	"substrate-wasm-builder",
 ]

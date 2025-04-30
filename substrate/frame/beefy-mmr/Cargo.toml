@@ -36,7 +36,7 @@ array-bytes = { workspace = true, default-features = true }
 sp-staking = { workspace = true, default-features = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"array-bytes",
 	"binary-merkle-tree/std",

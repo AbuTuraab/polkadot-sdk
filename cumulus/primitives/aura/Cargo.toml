@@ -17,8 +17,5 @@ sp-api = { workspace = true }
 sp-consensus-aura = { workspace = true }
 
 [features]
-default = ["std"]
-std = [
-	"sp-api/std",
-	"sp-consensus-aura/std",
-]
+default = [ "std" ]
+std = [ "sp-api/std", "sp-consensus-aura/std" ]

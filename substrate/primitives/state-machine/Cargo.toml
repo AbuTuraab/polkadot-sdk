@@ -41,8 +41,8 @@ rand = { workspace = true, default-features = true }
 sp-runtime = { workspace = true, default-features = true }
 
 [features]
-default = ["std"]
-fuzzing = ["arbitrary"]
+default = [ "std" ]
+fuzzing = [ "arbitrary" ]
 std = [
 	"codec/std",
 	"hash-db/std",

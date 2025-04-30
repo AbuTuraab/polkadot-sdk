@@ -5,7 +5,7 @@ description = "Polkadot SDK umbrella crate."
 license = "Apache-2.0"
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"asset-test-utils?/std",
 	"assets-common?/std",
@@ -526,10 +526,7 @@ experimental = [
 ]
 with-tracing = [
 	"frame-executive?/with-tracing",
-	"frame-executive?/with-tracing",
 	"sp-io?/with-tracing",
-	"sp-io?/with-tracing",
-	"sp-tracing?/with-tracing",
 	"sp-tracing?/with-tracing",
 ]
 runtime-full = [

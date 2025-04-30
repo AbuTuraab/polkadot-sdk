@@ -43,7 +43,7 @@ polkadot-test-runtime = { workspace = true }
 primitive-types = { features = ["codec", "num-traits", "scale-info"], workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 runtime-benchmarks = [
 	"frame-support/runtime-benchmarks",
 	"frame-system/runtime-benchmarks",

@@ -29,7 +29,7 @@ sp-runtime = { workspace = true }
 frame-benchmarking = { optional = true, workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"frame-benchmarking?/std",
@@ -52,4 +52,4 @@ try-runtime = [
 	"frame-system/try-runtime",
 	"sp-runtime/try-runtime",
 ]
-experimental = ["frame-support/experimental", "frame-system/experimental"]
+experimental = [ "frame-support/experimental", "frame-system/experimental" ]

@@ -38,7 +38,7 @@ snowbridge-ethereum = { workspace = true }
 hex-literal = { workspace = true, default-features = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"byte-slice-cast/std",
 	"codec/std",

@@ -26,7 +26,7 @@ itertools = { workspace = true }
 sp-tracing = { workspace = true, default-features = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"frame/std",
@@ -34,9 +34,5 @@ std = [
 	"scale-info/std",
 	"sp-mmr-primitives/std",
 ]
-runtime-benchmarks = [
-	"frame/runtime-benchmarks",
-]
-try-runtime = [
-	"frame/try-runtime",
-]
+runtime-benchmarks = [ "frame/runtime-benchmarks" ]
+try-runtime = [ "frame/try-runtime" ]

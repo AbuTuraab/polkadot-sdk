@@ -38,7 +38,7 @@ snowbridge-verification-primitives = { workspace = true }
 hex-literal = { workspace = true, default-features = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"alloy-core/std",
 	"codec/std",

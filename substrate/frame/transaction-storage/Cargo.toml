@@ -34,7 +34,7 @@ sp-transaction-storage-proof = { workspace = true }
 sp-transaction-storage-proof = { default-features = true, workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"frame-benchmarking?/std",

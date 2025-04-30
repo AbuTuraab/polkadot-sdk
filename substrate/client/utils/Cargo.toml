@@ -25,5 +25,5 @@ sp-arithmetic = { workspace = true }
 tokio-test = { workspace = true }
 
 [features]
-default = ["metered"]
+default = [ "metered" ]
 metered = []

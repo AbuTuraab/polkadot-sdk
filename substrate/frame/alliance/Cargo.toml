@@ -41,7 +41,7 @@ pallet-collective = { workspace = true, default-features = true }
 sp-crypto-hashing = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 std = [
 	"codec/std",
 	"frame-benchmarking?/std",

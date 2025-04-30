@@ -17,9 +17,5 @@ polkadot-primitives = { workspace = true }
 sp-runtime = { workspace = true }
 
 [features]
-default = ["std"]
-std = [
-	"frame-support/std",
-	"polkadot-primitives/std",
-	"sp-runtime/std",
-]
+default = [ "std" ]
+std = [ "frame-support/std", "polkadot-primitives/std", "sp-runtime/std" ]

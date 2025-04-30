@@ -28,7 +28,7 @@ sp-metadata-ir = { optional = true, workspace = true }
 sp-runtime = { workspace = true }
 
 [features]
-default = ["std"]
+default = [ "std" ]
 
 std = [
 	"codec/std",
@@ -53,4 +53,4 @@ try-runtime = [
 	"sp-runtime/try-runtime",
 ]
 
-frame-metadata = ["sp-metadata-ir"]
+frame-metadata = [ "sp-metadata-ir" ]
