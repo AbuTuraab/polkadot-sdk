@@ -33,8 +33,8 @@ sp-io = { workspace = true, default-features = true }
 sp-npos-elections = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
-fuzz = [ "default" ]
+default = ["std"]
+fuzz = ["default"]
 std = [
 	"codec/std",
 	"frame-support/std",

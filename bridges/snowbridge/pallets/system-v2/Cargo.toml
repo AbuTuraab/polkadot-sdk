@@ -44,7 +44,7 @@ snowbridge-test-utils = { workspace = true }
 sp-keyring = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"frame-benchmarking?/std",

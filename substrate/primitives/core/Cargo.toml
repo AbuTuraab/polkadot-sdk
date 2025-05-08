@@ -82,7 +82,7 @@ regex = { workspace = true }
 serde_json = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"ark-vrf?/std",
 	"bip39/rand",
@@ -153,9 +153,9 @@ full_crypto = [
 # This feature adds BLS crypto primitives.
 # It should not be used in production since the implementation and interface may still
 # be subject to significant changes.
-bls-experimental = [ "w3f-bls" ]
+bls-experimental = ["w3f-bls"]
 
 # This feature adds Bandersnatch crypto primitives.
 # It should not be used in production since the implementation and interface may still
 # be subject to significant changes.
-bandersnatch-experimental = [ "ark-vrf" ]
+bandersnatch-experimental = ["ark-vrf"]

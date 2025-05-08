@@ -29,7 +29,7 @@ pallet-proxy = { workspace = true, default-features = true }
 pallet-utility = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"frame/std",

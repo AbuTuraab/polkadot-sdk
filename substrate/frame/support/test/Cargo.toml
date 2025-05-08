@@ -39,7 +39,7 @@ trybuild = { features = ["diff"], workspace = true }
 test-pallet = { workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"frame-benchmarking/std",
@@ -59,7 +59,7 @@ std = [
 	"sp-version/std",
 	"test-pallet/std",
 ]
-experimental = [ "frame-support/experimental", "frame-system/experimental" ]
+experimental = ["frame-support/experimental", "frame-system/experimental"]
 runtime-benchmarks = [
 	"frame-benchmarking/runtime-benchmarks",
 	"frame-support/runtime-benchmarks",
@@ -79,4 +79,4 @@ frame-feature-testing = []
 frame-feature-testing-2 = []
 # Disable ui tests
 disable-ui-tests = []
-no-metadata-docs = [ "frame-support/no-metadata-docs" ]
+no-metadata-docs = ["frame-support/no-metadata-docs"]

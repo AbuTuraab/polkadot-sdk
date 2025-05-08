@@ -32,8 +32,8 @@ sp-state-machine = { workspace = true }
 sp-trie = { optional = true, workspace = true }
 
 [features]
-default = [ "historical", "std" ]
-historical = [ "sp-trie" ]
+default = ["historical", "std"]
+historical = ["sp-trie"]
 std = [
 	"codec/std",
 	"frame-support/std",

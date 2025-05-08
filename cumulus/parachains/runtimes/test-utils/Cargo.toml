@@ -44,7 +44,7 @@ xcm-executor = { workspace = true }
 xcm-runtime-apis = { workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"cumulus-pallet-parachain-system/std",

@@ -22,5 +22,5 @@ scale-info = { features = ["derive"], workspace = true }
 frame = { features = ["runtime"], workspace = true }
 
 [features]
-default = [ "std" ]
-std = [ "codec/std", "frame/std", "scale-info/std" ]
+default = ["std"]
+std = ["codec/std", "frame/std", "scale-info/std"]

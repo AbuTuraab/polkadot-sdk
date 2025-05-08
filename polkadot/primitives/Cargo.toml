@@ -38,7 +38,7 @@ polkadot-core-primitives = { workspace = true }
 polkadot-parachain-primitives = { workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"bitvec/std",
 	"bounded-collections/std",

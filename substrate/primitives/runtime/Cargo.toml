@@ -53,7 +53,7 @@ zstd = { workspace = true }
 [features]
 runtime-benchmarks = []
 try-runtime = []
-default = [ "std" ]
+default = ["std"]
 std = [
 	"binary-merkle-tree/std",
 	"codec/std",

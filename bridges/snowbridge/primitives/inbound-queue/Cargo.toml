@@ -41,7 +41,7 @@ hex-literal = { workspace = true, default-features = true }
 snowbridge-test-utils = { workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"alloy-core/std",
 	"codec/std",

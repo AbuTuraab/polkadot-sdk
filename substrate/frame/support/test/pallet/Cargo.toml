@@ -23,7 +23,7 @@ serde = { features = ["derive"], workspace = true }
 sp-runtime = { workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"frame-support/std",

@@ -22,7 +22,7 @@ frame = { workspace = true, default-features = false, features = [
 ] }
 
 [features]
-default = [ "std" ]
-runtime-benchmarks = [ "frame/runtime-benchmarks" ]
-std = [ "codec/std", "frame/std", "scale-info/std" ]
-try-runtime = [ "frame/try-runtime" ]
+default = ["std"]
+runtime-benchmarks = ["frame/runtime-benchmarks"]
+std = ["codec/std", "frame/std", "scale-info/std"]
+try-runtime = ["frame/try-runtime"]

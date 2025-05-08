@@ -32,7 +32,7 @@ sp-io = { workspace = true }
 sp-trie = { workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"cumulus-primitives-core/std",

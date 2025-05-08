@@ -37,8 +37,8 @@ pallet-balances = { workspace = true, default-features = true }
 sp-tracing = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
-fuzzing = [ "pallet-balances", "sp-tracing" ]
+default = ["std"]
+fuzzing = ["pallet-balances", "sp-tracing"]
 std = [
 	"codec/std",
 	"frame-support/std",

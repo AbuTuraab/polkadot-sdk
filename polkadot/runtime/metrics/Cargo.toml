@@ -20,7 +20,7 @@ sp-tracing = { workspace = true }
 bs58 = { features = ["alloc"], workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"bs58/std",
 	"codec/std",
@@ -28,4 +28,4 @@ std = [
 	"polkadot-primitives/std",
 	"sp-tracing/std",
 ]
-runtime-metrics = [ "frame-benchmarking", "sp-tracing/with-tracing" ]
+runtime-metrics = ["frame-benchmarking", "sp-tracing/with-tracing"]

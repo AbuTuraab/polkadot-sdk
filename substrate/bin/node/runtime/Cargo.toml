@@ -42,8 +42,8 @@ pallet-example-tasks = { workspace = true }
 substrate-wasm-builder = { optional = true, workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
-with-tracing = [ "polkadot-sdk/with-tracing" ]
+default = ["std"]
+with-tracing = ["polkadot-sdk/with-tracing"]
 std = [
 	"codec/std",
 	"log/std",
@@ -67,5 +67,5 @@ try-runtime = [
 	"pallet-example-tasks/try-runtime",
 	"polkadot-sdk/try-runtime",
 ]
-experimental = [ "pallet-example-tasks/experimental" ]
-metadata-hash = [ "substrate-wasm-builder/metadata-hash" ]
+experimental = ["pallet-example-tasks/experimental"]
+metadata-hash = ["substrate-wasm-builder/metadata-hash"]

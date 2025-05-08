@@ -79,7 +79,7 @@ sp-tracing = { workspace = true, default-features = true }
 xcm-builder = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"alloy-core/std",
 	"codec/std",

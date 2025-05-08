@@ -38,7 +38,7 @@ pallet-balances = { workspace = true, default-features = true }
 snowbridge-test-utils = { workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"frame-benchmarking?/std",
