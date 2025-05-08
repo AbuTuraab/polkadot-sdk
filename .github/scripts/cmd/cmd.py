@@ -262,6 +262,7 @@ def main():
         command = f"cargo +nightly fmt"
         print(f'Formatting with `{command}`')
         nightly_status = os.system(f'{command}')
+        os.system("cargo metadata --format-version 1 > /dev/null") # update the lockfile
         zepter_status = os.system('zepter run')
         taplo_status = os.system('taplo format --config .config/taplo.toml')
         if (nightly_status != 0 or zepter_status != 0 or taplo_status != 0):
