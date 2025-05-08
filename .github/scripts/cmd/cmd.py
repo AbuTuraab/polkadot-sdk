@@ -264,7 +264,6 @@ def main():
         nightly_status = os.system(f'{command}')
         zepter_status = os.system('zepter run')
         taplo_status = os.system('taplo format --config .config/taplo.toml')
-    
         if (nightly_status != 0 or zepter_status != 0 or taplo_status != 0):
             print_and_log('❌ Failed to format code')
             sys.exit(1)
