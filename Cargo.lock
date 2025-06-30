@@ -6424,6 +6424,7 @@ dependencies = [
  "gethostname",
  "handlebars",
  "itertools 0.11.0",
+ "json-patch",
  "linked-hash-map",
  "log",
  "parity-scale-codec",

@@ -39,7 +39,8 @@ pub struct ChainSpecBuilder {
 	#[command(subcommand)]
 	pub command: ChainSpecBuilderCmd,
 	/// The path where the chain spec should be saved.
-	#[arg(long, short, default_value = "./chain_spec.json")]
+	#[arg(long, short, 
+		default_value = "./chain_spec.json")]
 	pub chain_spec_path: PathBuf,
 }
 
@@ -222,7 +223,7 @@ pub struct ParachainExtension {
 
 type ChainSpec = GenericChainSpec<()>;
 
-impl ChainSpecBuilder {
+impl ChainSpecBuilder { 
 	/// Executes the internal command.
 	pub fn run(&self) -> Result<(), String> {
 		let chain_spec_path = self.chain_spec_path.to_path_buf();
