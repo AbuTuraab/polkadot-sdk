@@ -37,7 +37,7 @@ sha2 = { optional = true, workspace = true, default-features = true }
 x25519-dalek = { optional = true, features = ["static_secrets"], workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"aes-gcm",
 	"aes-gcm?/std",

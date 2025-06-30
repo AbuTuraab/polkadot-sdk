@@ -29,7 +29,7 @@ pallet-minimal-template = { workspace = true }
 polkadot-sdk = { optional = true, workspace = true, features = ["substrate-wasm-builder"] }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"pallet-minimal-template/std",

@@ -30,7 +30,7 @@ sp-std = { workspace = true }
 hex = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"bp-messages/std",
 	"bp-runtime/std",

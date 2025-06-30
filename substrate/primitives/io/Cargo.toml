@@ -52,7 +52,7 @@ polkavm-derive = { workspace = true }
 rustversion = { workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"bytes/std",
 	"codec/std",
@@ -73,7 +73,7 @@ std = [
 	"tracing/std",
 ]
 
-with-tracing = [ "sp-tracing/with-tracing" ]
+with-tracing = ["sp-tracing/with-tracing"]
 
 # These two features are used for `no_std` builds for the environments which already provides
 # `#[panic_handler]`, `#[alloc_error_handler]` and `#[global_allocator]`.

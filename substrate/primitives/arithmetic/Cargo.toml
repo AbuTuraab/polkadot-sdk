@@ -36,7 +36,7 @@ rand = { workspace = true, default-features = true }
 sp-crypto-hashing = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"num-traits/std",
@@ -45,4 +45,4 @@ std = [
 	"sp-crypto-hashing/std",
 ]
 # Serde support without relying on std features.
-serde = [ "dep:serde", "scale-info/serde" ]
+serde = ["dep:serde", "scale-info/serde"]

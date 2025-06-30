@@ -30,7 +30,7 @@ thiserror = { optional = true, workspace = true }
 array-bytes = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"dep:thiserror",
@@ -45,4 +45,4 @@ std = [
 ]
 
 # Serde support without relying on std features.
-serde = [ "dep:serde", "scale-info/serde", "sp-core/serde", "sp-runtime/serde" ]
+serde = ["dep:serde", "scale-info/serde", "sp-core/serde", "sp-runtime/serde"]

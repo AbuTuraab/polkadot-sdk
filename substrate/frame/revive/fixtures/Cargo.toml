@@ -28,6 +28,6 @@ polkavm-linker = { version = "0.21.0" }
 toml = { workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 # only when std is enabled all fixtures are available
-std = [ "anyhow", "sp-core", "sp-io" ]
+std = ["anyhow", "sp-core", "sp-io"]

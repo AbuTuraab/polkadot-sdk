@@ -29,7 +29,7 @@ sp-runtime = { workspace = true }
 sp-timestamp = { optional = true, workspace = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"async-trait",
 	"codec/std",

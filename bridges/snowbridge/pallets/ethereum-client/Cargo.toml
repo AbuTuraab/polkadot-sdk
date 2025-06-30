@@ -50,11 +50,10 @@ snowbridge-pallet-ethereum-client-fixtures = { workspace = true, default-feature
 sp-io = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
-fuzzing = [ "hex-literal", "pallet-timestamp", "serde", "serde_json", "sp-io" ]
+default = ["std"]
+fuzzing = ["hex-literal", "pallet-timestamp", "serde", "serde_json", "sp-io"]
 std = [
 	"codec/std",
-	'frame-benchmarking/std',
 	"frame-support/std",
 	"frame-system/std",
 	"log/std",
@@ -70,6 +69,7 @@ std = [
 	"sp-io/std",
 	"sp-runtime/std",
 	"sp-std/std",
+	'frame-benchmarking/std',
 ]
 runtime-benchmarks = [
 	"frame-benchmarking/runtime-benchmarks",

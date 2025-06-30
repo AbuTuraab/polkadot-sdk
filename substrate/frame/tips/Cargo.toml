@@ -33,7 +33,7 @@ pallet-balances = { workspace = true, default-features = true }
 sp-storage = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"frame-benchmarking?/std",

@@ -38,7 +38,7 @@ sp-consensus-beefy = { workspace = true, default-features = true }
 sp-io = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"bp-beefy/std",
 	"bp-runtime/std",

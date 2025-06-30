@@ -24,5 +24,5 @@ sp-io = { features = ["disable_allocator"], workspace = true }
 substrate-wasm-builder = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
-std = [ "codec/std", "polkadot-parachain-primitives/std", "sp-io/std" ]
+default = ["std"]
+std = ["codec/std", "polkadot-parachain-primitives/std", "sp-io/std"]

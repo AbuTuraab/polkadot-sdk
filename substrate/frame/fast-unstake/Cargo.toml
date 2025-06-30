@@ -40,7 +40,7 @@ sp-core = { workspace = true }
 sp-tracing = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"frame-benchmarking/std",

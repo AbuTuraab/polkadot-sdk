@@ -21,5 +21,5 @@ sp-api = { workspace = true }
 sp-runtime = { workspace = true }
 
 [features]
-default = [ "std" ]
-std = [ "sp-api/std", "sp-runtime/std" ]
+default = ["std"]
+std = ["sp-api/std", "sp-runtime/std"]

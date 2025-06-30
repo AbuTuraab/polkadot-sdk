@@ -34,6 +34,8 @@ xcm-executor = { workspace = true }
 # Cumulus
 cumulus-primitives-core = { workspace = true }
 
+# Optional import for weight accuracy testing
+approx = { workspace = true }
 # Optional import for benchmarking
 bounded-collections = { workspace = true }
 frame-benchmarking = { optional = true, workspace = true }
@@ -51,8 +53,9 @@ sp-core = { workspace = true, default-features = true }
 cumulus-pallet-parachain-system = { workspace = true, default-features = true }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
+	"approx/std",
 	"bounded-collections/std",
 	"bp-xcm-bridge-hub-router?/std",
 	"codec/std",
@@ -97,4 +100,4 @@ try-runtime = [
 	"polkadot-runtime-parachains/try-runtime",
 	"sp-runtime/try-runtime",
 ]
-bridging = [ "bp-xcm-bridge-hub-router" ]
+bridging = ["bp-xcm-bridge-hub-router"]

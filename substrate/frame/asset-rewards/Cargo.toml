@@ -34,7 +34,7 @@ pallet-balances = { workspace = true }
 primitive-types = { workspace = true, features = ["codec", "num-traits", "scale-info"] }
 
 [features]
-default = [ "std" ]
+default = ["std"]
 std = [
 	"codec/std",
 	"frame-benchmarking?/std",

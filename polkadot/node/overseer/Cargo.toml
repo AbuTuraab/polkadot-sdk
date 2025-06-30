@@ -38,7 +38,7 @@ polkadot-node-subsystem-test-helpers = { workspace = true }
 polkadot-primitives-test-helpers = { workspace = true }
 
 [features]
-default = [ "futures_channel" ]
-expand = [ "orchestra/expand" ]
-futures_channel = [ "metered/futures_channel", "orchestra/futures_channel" ]
-jemalloc-allocator = [ "dep:tikv-jemalloc-ctl" ]
+default = ["futures_channel"]
+expand = ["orchestra/expand"]
+futures_channel = ["metered/futures_channel", "orchestra/futures_channel"]
+jemalloc-allocator = ["dep:tikv-jemalloc-ctl"]
